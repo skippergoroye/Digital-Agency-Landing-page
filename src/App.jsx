@@ -19,7 +19,7 @@ function App() {
         
 
 
-        <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`bg-secondary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>
