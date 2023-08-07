@@ -24,8 +24,8 @@ const Navbar = () => {
 
 
       <div className='mx-5 space-x-3 cursor-pointer text-[12px]'>
-       <button className="border border-[#20B15A] p-2">Login</button>
-       <button className="text-white bg-[#20B15A] p-1">Register</button>
+       <button className="border border-[#20B15A] p-1 rounded-lg w-16">Login</button>
+       <button className="text-white bg-[#20B15A] p-1 rounded-lg w-16">Register</button>
 
       </div>
      
