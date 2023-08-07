@@ -1,18 +1,18 @@
+import { DownArrow } from '../assets/'
+
+
 export const navLinks = [
     {
-      id: "home",
-      title: "Home",
+      id: "Services",
+      title: "Services",
+      icon: DownArrow,
     },
     {
-      id: "features",
-      title: "Features",
+      id: "About Us",
+      title: "About Us",
     },
     {
-      id: "product",
-      title: "Product",
-    },
-    {
-      id: "clients",
-      title: "Clients",
+      id: "Contact Us",
+      title: "Contact Us",
     },
 ];
