@@ -1,19 +1,19 @@
-import { DownArrow, Google, Trello, Monday, Slack, Notion, Activity, Heart, Work } from '../assets/'
+import { DownArrow, Google, Trello, Monday, Slack, Notion, Activity, Heart, Work, Plan, Raise, Rating, Timeline } from '../assets/'
 
 export const navLinks = [
-    {
-      id: "Services",
-      title: "Services",
-      icon: DownArrow,
-    },
-    {
-      id: "About Us",
-      title: "About Us",
-    },
-    {
-      id: "Contact Us",
-      title: "Contact Us",
-    },
+  {
+    id: "Services",
+    title: "Services",
+    icon: DownArrow,
+  },
+  {
+    id: "About Us",
+    title: "About Us",
+  },
+  {
+    id: "Contact Us",
+    title: "Contact Us",
+  },
 ];
 
 
@@ -62,5 +62,36 @@ export const Business = [
     icon: Work,
     title: "Improve Business Model",
     content: "We help identify the best ways to improve your business",
+  },
+];
+
+
+
+
+
+export const Project = [
+  {
+    id: "project-1",
+    icon: Plan,
+    title: "Completed Projects",
+    stat: "100 +"
+  },
+  {
+    id: "project-2",
+    icon: Raise,
+    title: "Customer Satisfaction",
+    stat: "20 %"
+  },
+  {
+    id: "project-3",
+    icon: Rating,
+    title: "Raised by Clients",
+    stat: "$ 10M"
+  },
+  {
+    id: "project-4",
+    icon: Timeline,
+    title: "Years in Business",
+    stat: "$ 10M"
   },
 ];

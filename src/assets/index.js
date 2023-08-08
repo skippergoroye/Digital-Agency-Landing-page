@@ -8,7 +8,11 @@ import Notion from './Notion.png';
 import Slack from './Slack.png';
 import Activity from './Activity.png';
 import Heart from './Heart.png';
-import Work from './Work.png'
+import Work from './Work.png';
+import Plan from './project-plan.png';
+import Raise from './raise.png';
+import Rating from './rating.png';
+import Timeline from './timeline 1.png'
 
 
 
@@ -26,5 +30,9 @@ export {
     Slack,
     Activity,
     Heart,
-    Work
+    Work,
+    Plan,
+    Raise,
+    Rating,
+    Timeline
 }
