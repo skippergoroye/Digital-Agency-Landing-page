@@ -13,7 +13,7 @@ const WhatWeDo = () => {
       </div>
 
 
-      <div className='flex md:flex-row flex-col py-6 justify-between mt-10'>
+      <div className='flex md:flex-row flex-col py-6 justify-between mt-10 md:ml-10'>
         {Business.map(({ id, icon, title, content,}) => (
           <div key={id}>
             <div className='mb-6'>

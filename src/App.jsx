@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {styles} from './style'
-import { Navbar, Hero, CTA, WhatWeDo, Stats, Footer } from './components';
+import { Navbar, Hero, CTA, WhatWeDo, Stats, Subscribe, Footer } from './components';
+
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <div className={`${styles.boxWidth}`}>
             <WhatWeDo />
             <Stats />
-            <CTA />
+            {/* <CTA /> */}
+            <Subscribe />
             <Footer />
           </div>
         </div>
