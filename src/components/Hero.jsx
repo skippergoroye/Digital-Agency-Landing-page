@@ -26,20 +26,16 @@ const Hero = () => {
           </div>
        </div>
 
-
-       <div className='bg-white md:w-[1280px] md:h-[80px]  h-[50px] absolute md:mt-[420px] mt-[570px]'>
-        <div className='flex items-center justify-between md:mt-6 md:px-16 px-6 mt-5 gap-10'>
-          {OurPartners.map((part) => (
-            <div key={part.id} className={`content-center`}>
-              <img src={part.icon} alt="client_logo" className="xs:w-[100px] w-[1500px] object-contain" />
-            </div>
-          ))}
-        </div>
+       <div className='bg-white md:w-[1280px] md:h-[70px] h-[50px] absolute md:mt-[420px] mt-[570px]'>
+          <div className='flex items-center justify-between md:mt-6 md:px-16 px-6 mt-5 gap-10'>
+            {OurPartners.map((part) => (
+              <div key={part.id} className={`content-center`}>
+                <img src={part.icon} alt="client_logo" className="xs:w-[100px] w-[1500px] object-contain" />
+              </div>
+            ))}
+          </div>
        </div>
     </section>
-
-    
-    
   )
 }
 

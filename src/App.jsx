@@ -3,8 +3,6 @@ import {styles} from './style'
 import { Navbar, Hero, CTA, Footer } from './components';
 
 
-
-
 function App() {
   
 
@@ -17,7 +15,6 @@ function App() {
           </div>
         </div>
         
-
 
         <div className={`bg-secondary md:h-[550px] ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
@@ -32,10 +29,8 @@ function App() {
             <Footer />
           </div>
         </div>
-
       </div>
     </>
-    
   )
 }
 
