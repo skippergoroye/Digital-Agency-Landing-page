@@ -35,10 +35,10 @@ const Footer = () => {
         <div className="flex-[1.5] w-full flex md:flex-row flex-col gap-10 justify-between md:mt-8 mt-10">
           {footerLinks.map((section, sectionIndex) => (
             <div className="max-w-[200px] mr-[150px] py-3">
-              <h4 className="font-poppins font-semibold text-[14px] leading-[27px] text-black">{section.title}</h4>
+              <h4 className="font-poppins font-semibold text-[14px] leading-[7px] text-black">{section.title}</h4>
               <ul className="list-none mt-4">
                 {section.links.map((linkObj, linkIndex) => (
-                  <li key={linkIndex} >
+                  <li key={linkIndex} className="py-1">
                     <a href={linkObj.link}  >{linkObj.name}</a>
                 </li>
                 ))}
