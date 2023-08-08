@@ -1,4 +1,4 @@
-import { DownArrow, Google, Trello, Monday, Slack, Notion } from '../assets/'
+import { DownArrow, Google, Trello, Monday, Slack, Notion, Activity, Heart, Work } from '../assets/'
 
 export const navLinks = [
     {
@@ -15,6 +15,9 @@ export const navLinks = [
       title: "Contact Us",
     },
 ];
+
+
+
 
 
 export const OurPartners = [
@@ -37,5 +40,27 @@ export const OurPartners = [
   {
     id: "company-5",
     icon: Notion,
+  },
+];
+
+
+export const Business = [
+  {
+    id: "business-1",
+    icon: Activity,
+    title: "Grow Your Business",
+    content: "We help identify the best ways to improve your business",
+  },
+  {
+    id: "business-2",
+    icon: Heart,
+    title: "Improve brand loyalty",
+    content: "We help identify the best ways to improve your business",
+  },
+  {
+    id: "business-3",
+    icon: Work,
+    title: "Improve Business Model",
+    content: "We help identify the best ways to improve your business",
   },
 ];

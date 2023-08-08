@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {styles} from './style'
-import { Navbar, Hero, CTA, Footer } from './components';
+import { Navbar, Hero, CTA, WhatWeDo, Footer } from './components';
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
+            <WhatWeDo />
             <CTA />
             <Footer />
           </div>
