@@ -32,9 +32,7 @@ const WhatWeDo = () => {
           </div>
         ))}
       </div>
-
     </section>
-
   )
 }
 

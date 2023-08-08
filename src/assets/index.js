@@ -13,6 +13,11 @@ import Plan from './project-plan.png';
 import Raise from './raise.png';
 import Rating from './rating.png';
 import Timeline from './timeline 1.png'
+import WebLogo from './WEB LOGO.png'
+import Facebook from './facebook.png'
+import Twitter from './twitter.png'
+import Instagram from './instagram.png'
+import Snapcaht from './snapchat.png'
 
 
 
@@ -34,5 +39,10 @@ export {
     Plan,
     Raise,
     Rating,
-    Timeline
+    Timeline,
+    WebLogo,
+    Facebook,
+    Twitter,
+    Instagram,
+    Snapcaht
 }

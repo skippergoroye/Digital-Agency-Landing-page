@@ -1,4 +1,4 @@
-import { DownArrow, Google, Trello, Monday, Slack, Notion, Activity, Heart, Work, Plan, Raise, Rating, Timeline } from '../assets/'
+import { DownArrow, Google, Trello, Monday, Slack, Notion, Activity, Heart, Work, Plan, Raise, Rating, Timeline, Facebook, Instagram, Twitter, Snapcaht } from '../assets/'
 
 export const navLinks = [
   {
@@ -93,5 +93,26 @@ export const Project = [
     icon: Timeline,
     title: "Years in Business",
     stat: "$ 10M"
+  },
+];
+
+
+
+export const FooterIcon = [
+  {
+    id: "facebook-1",
+    icon: Facebook,
+  },
+  {
+    id: "Twitter-2",
+    icon: Twitter,
+  },
+  {
+    id: "Instagram-3",
+    icon: Instagram,
+  },
+  {
+    id: "Snapchat-4",
+    icon: Snapcaht,
   },
 ];
