@@ -116,3 +116,43 @@ export const FooterIcon = [
     icon: Snapcaht,
   },
 ];
+
+
+
+
+
+
+export const footerLinks = [
+  {
+    title: "Quick Links",
+    links: [
+      {
+        name: "Services",
+        link: "https://www.hoobank.com/content/",
+      },
+      {
+        name: "Portfolio",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "About Us",
+        link: "https://www.hoobank.com/create/",
+      },
+      {
+        name: "Contact Us",
+        link: "https://www.hoobank.com/explore/",
+      },
+    ],
+  },
+  {
+    title: "Address",
+    links: [
+      {
+        name: "Design Agency Head Office Airport Road United Arab Emirate",
+        link: "https://www.hoobank.com/help-center/",
+      },
+    ],
+  },
+];
+
+
