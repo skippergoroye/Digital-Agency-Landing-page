@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 
 const Subscribe = () => {
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(`Subscribing with email: ${email}`);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(`Subscribing with email: ${email}`);
+  // };
   return (
     <section id="Contact Us" className='flex items-center justify-center sm:py-6 py-6 sm:px-16 px-6'>
         <div className='flex flex-col items-center justify-center py-12 gap-8'>
@@ -26,13 +26,13 @@ const Subscribe = () => {
                   type="email"
                   placeholder="Enter Your Email Adress"
                   className="border border-gray-300 md:w-[400px] w-[300px] rounded-2xl py-[10px] px-2 pr-16 focus:outline-none focus:ring-2 focus:ring-blue-400 text-[#8B8B8B] text-xs"
-                  value={email}
-                  onChange={handleEmailChange}
+                  // value={email}
+                  // onChange={handleEmailChange}
                 />
                 <button
                   type="submit"
                   className="absolute bg-[#F55F1D] text-xs text-white mt-[5px] mr-[10px] rounded-xl py-[6px] px-5 right-0 top-0  hover:bg-[#F55F1D"
-                  onClick={handleSubmit}
+                  // onClick={handleSubmit} 
                 >
                   Subscribe
                 </button>
