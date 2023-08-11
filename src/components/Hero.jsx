@@ -5,11 +5,11 @@ import { styles } from '../style'
 
 const Hero = () => {
   return (
-    <section id="home" className='flex md:flex-row flex-col sm:py-16 py-6'>
+    <section id="home" className='flex md:flex-row flex-col sm:py-16 py-6 md:mt-[-90px]'>
        {/* Increase Your Customers Loyalty and Satisfaction */}
-       <div className='flex md:flex-row flex-col sm:py-16 py-6 md:mt-[-80px] sm:px-16 px-6'>
+       <div className='flex md:flex-row flex-col sm:py-16 py-6 sm:px-16 px-6'>
           <div className='flex flex-col justify-center w-full'>
-              <h1 className='text-3xl md:text-5xl font-poppins mb-3 md:max-w-[550px] font-semibold'>Increase Your Customers Loyalty and Satisfaction</h1>
+              <h1 className='text-3xl md:text-5xl font-poppins mb-3 md:max-w-[550px] font-semibold md:leading-[60px]'>Increase Your Customers Loyalty and Satisfaction</h1>
               <p className='mb-5 font-avenir md:max-w-[430px] font-normal'>We help businesses like yours earn more customers, standout from competitors, make more money</p>
             <div>
               <button className='border border-[#20B15A] p-2 rounded-lg bg-[#20B15A] text-white text-[12px] w-24'>Get Started</button>
@@ -21,12 +21,12 @@ const Hero = () => {
             <img
               src={HeroImage}
               alt="billing"
-              className="w-[100%] h-[100%] relative items-center justify-center pl-6"
+              className="md:w-[700px] w-[100%] md:h-[400px] h-[100%] relative items-center justify-center pl-6"
             />
           </div>
        </div>
 
-       <div className='bg-white md:w-[1280px] md:h-[70px] h-[50px] absolute md:mt-[420px] mt-[570px]'>
+       <div className='bg-white md:w-[1280px] md:h-[80px] h-[50px] absolute md:mt-[463px] mt-[570px]'>
           <div className='flex items-center justify-between md:mt-6 md:px-16 px-6 mt-5 gap-10'>
             {OurPartners.map((part) => (
               <div key={part.id} className={`content-center`}>

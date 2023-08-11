@@ -86,13 +86,13 @@ export const Project = [
     id: "project-3",
     icon: Rating,
     title: "Raised by Clients",
-    stat: "$ 10M"
+    stat: "$10M"
   },
   {
     id: "project-4",
     icon: Timeline,
     title: "Years in Business",
-    stat: "$ 10M"
+    stat: "2 yrs"
   },
 ];
 

@@ -26,7 +26,12 @@ const Footer = () => {
             ))}
           </div>
 
-          <p className="text-[14px] font-avenir text-black font-normal">Copyright Design Agency 2022</p>
+          <p className="text-[14px] font-avenir text-black font-normal">Copyright Design Agency 2023</p>
+
+          <div>
+              <p className="text-[14px] text-black font-normal md:ml-[400px] md:hidden w-full md:text-center">© Made with 💖 by Oluwatosin Adegoroye. <br />All right Reserved</p>
+              <p className="text-[14px] text-black font-normal md:ml-[400px] md:flex hidden w-full md:text-center">© Made with 💖 by Oluwatosin Adegoroye. All right Reserved</p>
+          </div>
         </div>
 
 
