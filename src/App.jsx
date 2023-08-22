@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className={`bg-primary w-full overflow-hidden`}>
+      <div className={`bg-primary max-w-[1280px] overflow-hidden`}>
         <div className={`bg-secondary ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
