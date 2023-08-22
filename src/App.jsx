@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <div className={`max-w-[1280px] overflow-hidden`}>
-        <div className={`bg-secondary ${styles.paddingX}`}>
+      <div className={`overflow-hidden`}>
+        <div className={`max-w-[1280px] ${styles.paddingX}`}>
           {/* <div className={`${styles.boxWidth}`}> */}
             <Navbar />
           {/* </div> */}
