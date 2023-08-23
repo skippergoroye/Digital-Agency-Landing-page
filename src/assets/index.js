@@ -18,6 +18,9 @@ import Facebook from './facebook.png'
 import Twitter from './twitter.png'
 import Instagram from './instagram.png'
 import Snapcaht from './snapchat.png'
+import LogoMobile from './logo.svg'
+import Close from './close.svg'
+import Menu from './menu.svg'
 
 
 
@@ -44,5 +47,8 @@ export {
     Facebook,
     Twitter,
     Instagram,
-    Snapcaht
+    Snapcaht,
+    LogoMobile,
+    Close,
+    Menu
 }
