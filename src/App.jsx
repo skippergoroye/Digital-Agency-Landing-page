@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className={`overflow-hidden`}>
-        <div className={`bg-secondary max-w-[1280px] ${styles.paddingX}`}>
+        <div className={`bg-secondary  ${styles.paddingX}`}>
           {/* <div className={`${styles.boxWidth}`}> */}
             <Navbar />
           {/* </div> */}
@@ -26,15 +26,13 @@ function App() {
 
 
 
-        <div className={`bg-primary ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
+        <div className={`bg-primary`}>
             <WhatWeDo />
             <Stats />
             <Portfolio />
             {/* <CTA /> */}
             <Subscribe />
             <Footer />
-          </div>
         </div>
       </div>
     </>
