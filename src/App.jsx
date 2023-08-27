@@ -27,12 +27,12 @@ function App() {
 
 
         <div className={`bg-primary`}>
-            <WhatWeDo />
-            <Stats />
-            <Portfolio />
-            {/* <CTA /> */}
-            <Subscribe />
-            <Footer />
+          <WhatWeDo />
+          <Stats />
+          <Portfolio />
+          {/* <CTA /> */}
+          <Subscribe />
+          <Footer />
         </div>
       </div>
     </>

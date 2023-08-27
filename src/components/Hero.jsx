@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/hero-image.png'
 import { OurPartners } from '../constants/index';
+import Marquee from 'react-fast-marquee';
 import { styles } from '../style'
 
 const Hero = () => {
@@ -26,8 +27,10 @@ const Hero = () => {
               />
             </div>
         </div>
-
+      
+ 
         <div className='bg-white w-full md:w-full md:h-[80px] h-[50px] absolute md:mt-[463px] mt-[570px]'>
+          <Marquee direction="left" speed={100} delay={2}>
             <div className='flex items-center justify-between md:mt-6 md:px-16 px-6 mt-5 gap-10'>
               {OurPartners.map((part) => (
                 <div key={part.id} className={`content-center`}>
@@ -35,6 +38,7 @@ const Hero = () => {
                 </div>
               ))}
             </div>
+          </Marquee> 
         </div>
        </div>
        
